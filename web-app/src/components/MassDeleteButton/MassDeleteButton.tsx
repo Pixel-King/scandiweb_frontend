@@ -8,7 +8,7 @@ const MassDeleteButton:React.FC<{}> = () => {
   const [deleteProducts] = useDeleteProductsMutation();
 
   return (
-    <button type="button" id="delete-product-btn" onClick={() => deleteProducts({ sku })}>Mass Delete</button>
+    <button type="button" id="delete-product-btn" onClick={() => deleteProducts({ sku })}>MASS DELETE</button>
   );
 };
 

@@ -23,7 +23,7 @@ const ProductList:React.FC<{}> = () => {
         </div>
         <div className="menu-control">
           <button type="button" className="navigate-button" onClick={() => navigate('/add-product')}>
-            Add
+            ADD
           </button>
           <MassDeleteButton />
         </div>

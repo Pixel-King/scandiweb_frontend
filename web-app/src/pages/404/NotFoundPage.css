@@ -1,0 +1,24 @@
+.section-not-found-page {
+    width: 100%;
+    height: 100vh;
+}
+
+.not-found-page-container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.not-found-page-title {
+    font-size: 3em;
+}
+
+.not-found-page-inf {
+    font-size: 1.5em;
+    font-style: italic;
+    color: gray;
+}

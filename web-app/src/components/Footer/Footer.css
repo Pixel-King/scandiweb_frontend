@@ -1,0 +1,19 @@
+.footer-container {
+    width: 100%;
+    height: 80px;
+
+    border-top: 2px solid black;
+}
+
+.footer-wrap {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.inf-footer {
+    font-size: 1rem;
+    font-style: italic;
+}

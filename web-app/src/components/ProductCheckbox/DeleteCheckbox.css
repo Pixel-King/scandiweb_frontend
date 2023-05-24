@@ -1,0 +1,13 @@
+.delete-checkboxe-container {
+    position: absolute;
+}
+
+.delete-checkbox {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 10px;
+    left: 10px;
+    border-radius: 4px;
+    border: none;
+}

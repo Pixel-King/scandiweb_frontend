@@ -1,0 +1,35 @@
+.card-container {
+    width: 25%;
+}
+
+.card-wrap {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    margin: 10px auto;
+
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.prdouct-inf-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .card-container {
+        width: 33.33%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card-container {
+        width: 50%;
+    }
+}
